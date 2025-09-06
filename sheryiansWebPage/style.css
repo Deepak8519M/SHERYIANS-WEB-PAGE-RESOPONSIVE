@@ -40,6 +40,8 @@ nav {
   /* background: red; */
   position: fixed;
   width: 100%;
+  background: rgba(238, 232, 232, 0.035); /* light white with transparency */
+  backdrop-filter: blur(15px); /* blur effect */
 }
 .nav1 {
   display: flex;
@@ -431,4 +433,61 @@ main {
     font-size: 3.2vw;
     gap: 10px;
   }
+}
+.section4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12px 120px;
+  font-family: hell;
+  margin-top: 50px;
+}
+.section4 h1 {
+  font-size: 8vw;
+  line-height: 7vw;
+}
+
+.shercards {
+  width: 100%;
+  /* background: blue; */
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.shercard {
+  display: flex;
+  /* background: red; */
+  padding: 50px 30px;
+  align-items: center;
+  justify-content: space-between;
+  border-block: 1px solid rgb(153, 151, 151);
+}
+.shercard img {
+  height: 250px;
+  width: 500px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.shercard .left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 40%;
+}
+.shercard .left h2 {
+  font-size: 40px;
+}
+.shercard .left p {
+  font-size: 20px;
+  line-height: 22px;
+  width: 60%;
+}
+
+.shercard:nth-child(2) {
+  flex-direction: row-reverse;
+}
+.shercard:nth-child(4) {
+  flex-direction: row-reverse;
 }
