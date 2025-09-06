@@ -360,7 +360,7 @@ main {
   align-items: center;
   padding: 10px 20px;
   /* background: blueviolet; */
-  border-bottom: 2px solid white;
+  border-bottom: 1px solid rgb(187, 181, 181);
   padding-bottom: 26px;
 }
 .techn {
@@ -383,4 +383,52 @@ main {
 }
 .expand {
   font-size: 20px;
+}
+@media (max-width: 800px) {
+  .section3 {
+    /* background: blue; */
+    width: 100%;
+    padding: 10px 30px;
+  }
+  .section3 h1 {
+    font-size: 12vw;
+    line-height: 12vw;
+    text-align: center;
+    /* background: red; */
+    width: 100%;
+  }
+  .section3 h3 {
+    font-size: 4vw;
+    text-align: center;
+    /* background: red; */
+    width: 100%;
+  }
+  .technos {
+    width: 100%;
+  }
+  .btn-extend button {
+    padding: 10px 20px;
+    font-size: 5vw;
+  }
+
+  .techno {
+    font-size: 4vw;
+    padding-bottom: 3vw;
+  }
+  .timg {
+    padding: 5px 5px;
+  }
+  .timg i {
+    font-size: 20px;
+  }
+  .expand {
+    font-size: 3vw;
+  }
+}
+@media (max-width: 400px) {
+  .techn {
+    /* background: black; */
+    font-size: 3.2vw;
+    gap: 10px;
+  }
 }
