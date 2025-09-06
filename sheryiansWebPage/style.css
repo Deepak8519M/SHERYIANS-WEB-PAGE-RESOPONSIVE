@@ -540,3 +540,56 @@ main {
     flex-direction: column-reverse;
   }
 }
+.section6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12px 120px;
+  font-family: hell;
+  margin-top: 50px;
+}
+.section6 h1 {
+  font-size: 7.5vw;
+  line-height: 7.5vw;
+}
+.certf {
+  background: red;
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 40%;
+  background: green;
+  height: 400px;
+  gap: 50px;
+}
+.left .top {
+  font-size: 26px;
+  width: 70%;
+}
+.left .bottom {
+  font-size: 26px;
+  /* margin-top: 30px; */
+  width: 70%;
+}
+.right img {
+  height: 400px;
+}
+.certf button {
+  cursor: pointer;
+  font-size: 22px;
+  padding: 20px 50px;
+  background-color: #009560;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+}
