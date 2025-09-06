@@ -283,6 +283,8 @@ main {
   }
   .left .tags {
     gap: 4px;
+    background: greenyellow;
+    width: 100%;
   }
   .left .tags h4 {
     font-size: 2.5vw;
@@ -291,13 +293,25 @@ main {
   .left .price {
     font-size: 7vw;
     margin-top: 10px;
+    background: red;
+    width: 100%;
+  }
+  .left {
+    background: saddlebrown;
+  }
+  .left h5 {
+    width: 100%;
   }
   .left h5 span {
     font-size: 4vw;
+    width: 100%;
+    background: greenyellow;
   }
   .buttonsSect1 {
     justify-content: space-between;
     margin-bottom: 10px;
+    background: red;
+    width: 100%;
   }
   .buttonsSect1 button {
     font-size: 3vw;
@@ -305,6 +319,9 @@ main {
   }
   .cta {
     font-size: 3vw;
+    background: blue;
+    width: 100%;
+    margin-top: -10px;
   }
 }
 .section3 {
@@ -464,17 +481,18 @@ main {
   justify-content: space-between;
   border-block: 1px solid rgb(153, 151, 151);
 }
-.shercard img {
+.shercard .right img {
   height: 250px;
-  width: 500px;
+  width: 400px;
   object-fit: cover;
   border-radius: 5px;
 }
 .shercard .left {
   display: flex;
   flex-direction: column;
-  gap: 20px;
   width: 40%;
+  /* background: blue; */
+  justify-content: center;
 }
 .shercard .left h2 {
   font-size: 40px;
@@ -514,12 +532,19 @@ main {
     flex-direction: column-reverse;
     padding: 40px 20px;
   }
-  .shercard img {
+  .shercard .right img {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
+    /* background: ; */
   }
   .shercard .left {
     width: 100%;
+    padding: 5px;
+    height: 220px;
+    /* align-items: flex-start;
+    justify-content: flex-start; */
+    background: blue;
+    text-align: left;
   }
   .shercard .left h2 {
     font-size: 8vw;
@@ -554,7 +579,7 @@ main {
   line-height: 7.5vw;
 }
 .certf {
-  background: red;
+  /* background: red; */
   margin-top: 30px;
   width: 100%;
   display: flex;
@@ -565,31 +590,88 @@ main {
 .left {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: flex-start;
   width: 40%;
-  background: green;
+  /* background: green; */
   height: 400px;
   gap: 50px;
 }
 .left .top {
-  font-size: 26px;
+  font-size: 28px;
   width: 70%;
 }
 .left .bottom {
-  font-size: 26px;
+  font-size: 28px;
   /* margin-top: 30px; */
   width: 70%;
+  /* background: blue; */
 }
 .right img {
-  height: 400px;
+  height: 500px;
+  border-radius: 12px;
 }
 .certf button {
   cursor: pointer;
   font-size: 22px;
-  padding: 20px 50px;
+  padding: 20px 70px;
   background-color: #009560;
   font-weight: 600;
   border: none;
   border-radius: 6px;
+}
+@media (max-width: 800px) {
+  .section6 {
+    width: 100%;
+    padding: 10px 20px;
+    /* background: green; */
+  }
+  .section6 h1 {
+    font-size: 7vw;
+    text-align: center;
+    width: 100%;
+    margin-bottom: -20px;
+  }
+  .certf {
+    width: 100%;
+    /* background: red; */
+    flex-direction: column;
+  }
+  .left {
+    width: 100%;
+    /* background: blue; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: fit-content;
+    padding-block: 10px;
+    margin-bottom: 10px;
+  }
+
+  .left .top {
+    /* background: grey; */
+    width: 100%;
+    text-align: center;
+    font-size: 4vw;
+  }
+
+  .left .bottom {
+    /* background: grey; */
+    width: 100%;
+    text-align: center;
+    font-size: 4vw;
+  }
+  .left button {
+    text-align: center;
+  }
+  .right {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .right img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
 }
