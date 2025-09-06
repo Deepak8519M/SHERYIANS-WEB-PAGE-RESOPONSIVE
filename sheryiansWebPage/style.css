@@ -229,3 +229,79 @@ main {
   font-weight: 400;
   margin-top: 5px;
 }
+@media (max-width: 1300px) {
+  .right .right-card .image-bottom {
+    gap: 5px;
+  }
+  .image-bottom h4 {
+    font-size: 1.2vw;
+  }
+  .left h1 {
+    font-size: 4.2vw;
+    line-height: 4.2vw;
+  }
+  .left .tags {
+    gap: 3px;
+  }
+  .left .tags h4 {
+    font-size: 1.5vw;
+    padding: 10px 15px;
+  }
+}
+@media (max-width: 800px) {
+  main {
+    width: 100%;
+    /* background: blueviolet; */
+  }
+  .section1 {
+    flex-direction: column-reverse;
+    /* background: red; */
+    width: 100%;
+    padding: 10px 30px;
+  }
+  .section1 .left {
+    width: 100%;
+    /* background: blue; */
+  }
+  .section1 .right {
+    width: 100%;
+  }
+  .right .right-card .image-bottom {
+    /* background: green; */
+    gap: 10px;
+    padding-top: 20px;
+  }
+  .image-bottom h4 {
+    font-size: 2.3vw;
+  }
+  .left h1 {
+    margin-top: 20px;
+    font-size: 6.2vw;
+    line-height: 6.2vw;
+  }
+  .left .tags {
+    gap: 4px;
+  }
+  .left .tags h4 {
+    font-size: 2.5vw;
+    padding: 10px 15px;
+  }
+  .left .price {
+    font-size: 7vw;
+    margin-top: 10px;
+  }
+  .left h5 span {
+    font-size: 4vw;
+  }
+  .buttonsSect1 {
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .buttonsSect1 button {
+    font-size: 3vw;
+    padding: 15px 20px;
+  }
+  .cta {
+    font-size: 3vw;
+  }
+}
