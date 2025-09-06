@@ -1,5 +1,11 @@
+:root {
+  --green: #02e797;
+  --gray: #212121;
+  --black: #0c0c0c;
+  --white: #e9e9e9;
+}
 * {
-  color: white;
+  color: var(--white);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -22,7 +28,7 @@ body {
   src: url("./fonts/NeueMachina-Regular_DQCmjH1st.ttf");
 }
 body {
-  background: #060606;
+  background: var(--black);
 }
 
 nav {
@@ -104,6 +110,122 @@ nav {
     display: flex;
   }
 }
-.section1 {
+main {
+  padding-top: 100px;
   /* background: red; */
+}
+.section1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 12px 80px;
+  font-family: hell;
+}
+.section1 span {
+  color: var(--green);
+}
+.section1 .left {
+  width: 39%;
+  /* background: red; */
+}
+.section1 .right {
+  width: 45%;
+  /* background: blue; */
+}
+.section1 .right img {
+  width: 500px;
+}
+.left h1 {
+  font-size: 49px;
+  font-weight: 600;
+}
+
+.left .tags {
+  display: flex;
+  align-items: center;
+  gap: 6px 6px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.left .tags h4 {
+  background: var(--gray);
+  padding: 10px 14px;
+  border-radius: 4px;
+  white-space: nowrap;
+  font-size: 15px;
+}
+.left .price {
+  font-size: 42px;
+  margin-top: 54px;
+  /* background: blue; */
+}
+.left h5 span {
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.right-card {
+  height: fit-content;
+  width: 100%;
+  /* background: greenyellow; */
+  background: var(--gray);
+  overflow: hidden;
+  border-radius: 10px;
+}
+.right .right-card .image {
+  width: 100%;
+}
+.right .right-card .image img {
+  width: 100%;
+}
+.right .right-card .image-bottom {
+  /* background: blue; */
+  padding: 10px;
+  padding-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-bottom: 19px;
+}
+.image-bottom h4 {
+  background: #151515;
+  padding: 14px;
+  font-size: 20px;
+  white-space: nowrap;
+  width: 47%;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.buttonsSect1 {
+  /* background: blue; */
+  display: flex;
+  gap: 23px;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.buttonsSect1 button {
+  cursor: pointer;
+  font-size: 25px;
+  padding: 28px 28px;
+  background-color: #009560;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  width: 46%;
+}
+.buttonsSect1 button:nth-child(2) {
+  background: #353535;
+  font-weight: 400;
+}
+.cta {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 5px;
 }
