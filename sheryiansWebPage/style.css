@@ -644,7 +644,7 @@ main {
     text-align: center;
     width: 100%;
     margin-bottom: -20px;
-    background: blue;
+    /* background: blue; */
   }
   .certf {
     width: 100%;
@@ -1043,4 +1043,145 @@ footer h2 {
     /* background-color: rgb(255, 135, 16); */
     width: 100%;
   }
+}
+.sectionTech {
+  width: 100%;
+  height: 100vh;
+  /* background: greenyellow; */
+
+  font-family: hell;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+/* .sectionTech h1 {
+  font-size: 8vw;
+  line-height: 4vw;
+  background: linear-gradient(to right, green, rgb(181, 255, 42));
+  padding: 20px;
+  background-clip: text;
+  color: transparent;
+  /* background-image: url(https://ik.imagekit.io/sheryians/BackEnd%20Donation/maskImage_W7a6T_MXGY.png); */
+/* }  */
+
+.sectionTech h1 {
+  font-size: 8.7vw;
+  line-height: 4vw;
+  font-weight: 800;
+  padding: 25px;
+
+  background-image: url("https://ik.imagekit.io/sheryians/BackEnd%20Donation/maskImage_W7a6T_MXGY.png");
+  background-size: cover;
+  background-position: center;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+  position: relative;
+  z-index: 1;
+}
+
+.sectionTech h1::before {
+  content: attr(data-text); /* duplicate text */
+  position: absolute;
+  top: 25px; /* match padding */
+  left: 25px;
+  font-size: 8.7vw;
+  line-height: 4vw;
+  font-weight: 800;
+
+  background-image: url("https://ik.imagekit.io/sheryians/BackEnd%20Donation/maskImage_W7a6T_MXGY.png");
+  background-size: cover;
+  background-position: center;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+  filter: blur(25px); /* creates the glow */
+  opacity: 0.7;
+  z-index: -1; /* keep glow behind */
+}
+
+.sectionTech h3 {
+  font-size: 5.1vw;
+}
+.sectionTech p {
+  width: 40%;
+  font-size: 1.3vw;
+  color: gray;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.sectionTech button {
+  border-radius: 8px;
+  border: none;
+  font-size: 1.8vw;
+  background: #00955f;
+  padding: 20px 120px;
+}
+@media (max-width: 700px) {
+  .sectionTech {
+    /* background: blue; */
+    height: 90vh;
+    gap: 4px;
+  }
+  .sectionTech h1 {
+    font-size: 16vw;
+    /* background: grey; */
+    text-align: center;
+    line-height: 15vw;
+    font-weight: 800;
+  }
+  .sectionTech h3 {
+    font-size: 9vw;
+    /* background: red; */
+    width: 100%;
+    text-align: center;
+  }
+  .sectionTech p {
+    font-size: 4vw;
+    width: 60%;
+    margin-top: 20px;
+    /* background: greenyellow; */
+  }
+  .sectionTech button {
+    font-size: 3vw;
+  }
+}
+@media (max-width: 500px) {
+  .sectionTech button {
+    font-size: 5vw;
+    padding: 10px 40px;
+  }
+  .sectionTech {
+    height: 60vh;
+  }
+}
+.section2 {
+  width: 100%;
+  /* background: red; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  font-family: hell;
+}
+.section2 h1 {
+  font-size: 10vw;
+  background-image: url(https://ik.imagekit.io/sheryians/Aptitude%20&%20Reasoning/bloomMask%20Large_lvwFbM14_l.png);
+  background-clip: text;
+  color: transparent;
+}
+.section2 h4 {
+  font-size: 3vw;
+  margin-top: -10px;
+  font-weight: 400;
+  margin-bottom: 50px;
 }
