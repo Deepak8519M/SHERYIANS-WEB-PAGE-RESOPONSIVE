@@ -690,3 +690,126 @@ main {
     object-fit: cover;
   }
 }
+.section7 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12px 120px;
+  font-family: hell;
+  margin-top: 50px;
+  /* background: green; */
+  gap: 30px;
+}
+.section7 h1 {
+  font-size: 7vw;
+  line-height: 7vw;
+}
+
+.section7 .subHeading {
+  font-size: 1.4vw;
+  font-weight: 400;
+  /* background: red; */
+  /* width: 50%; */
+
+  flex-direction: column;
+}
+.section7 .validity {
+  /* background: red; */
+  margin-top: -20px;
+  font-size: 1vw;
+}
+
+.scratch-card {
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+
+  /* Remove normal border */
+  border: none;
+
+  /* Dotted border using gradient */
+  background: repeating-linear-gradient(
+        to right,
+        gray 0 6px,
+        transparent 6px 12px
+      )
+      top,
+    repeating-linear-gradient(to right, gray 0 6px, transparent 6px 12px) bottom,
+    repeating-linear-gradient(to bottom, gray 0 6px, transparent 6px 12px) left,
+    repeating-linear-gradient(to bottom, gray 0 6px, transparent 6px 12px) right;
+  background-size: 100% 4px, 100% 4px, 4px 100%, 4px 100%;
+  background-repeat: no-repeat;
+  background-position: top left, bottom left, top left, top right;
+}
+
+.scratch-inner {
+  border-radius: 10px;
+  background: gray;
+  width: 93%;
+  height: 92%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8vw;
+  font-weight: 600;
+  color: rgb(71, 56, 56);
+}
+.section7 button {
+  padding: 20px 60px;
+  background: seagreen;
+  border: none;
+  background-image: url("https://ik.imagekit.io/sheryians/BackEnd%20Donation/maskImage_W7a6T_MXGY.png");
+  border-radius: 50px;
+  /* width: 300px; */
+  font-size: 1vw;
+  font-weight: 600;
+}
+.section7 .subHeading span {
+  color: var(--green);
+}
+@media (max-width: 800px) {
+  .section7 {
+    width: 100%;
+    padding: 10px 20px;
+    /* background: greenyellow; */
+  }
+  .section7 h1 {
+    font-size: 15vw;
+    line-height: 15vw;
+
+    width: 100%;
+    /* background: green; */
+  }
+  .section7 .subHeading {
+    width: 100%;
+    /* background: red; */
+    font-size: 4vw;
+    /* white-space: nowrap; */
+  }
+
+  .section7 .validity {
+    font-size: 3vw;
+  }
+  .scratch {
+    width: 100%;
+    /* background: red; */
+  }
+  .scratch-card {
+    width: 100%;
+    height: 54vw;
+  }
+  .scratch-inner {
+    font-size: 3vw;
+  }
+  .section7 button {
+    font-size: 3.5vw;
+    padding: 20px 40px;
+    font-weight: 400;
+  }
+}
