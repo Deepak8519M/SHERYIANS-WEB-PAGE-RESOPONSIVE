@@ -1,4 +1,4 @@
----
+
 # 🌐 Sheryians Web Page – Cohort 2.0 Landing Page
 
 This project is a **fully responsive landing page** built using **HTML & CSS** for **Sheryians Coding School – Cohort 2.0**.
