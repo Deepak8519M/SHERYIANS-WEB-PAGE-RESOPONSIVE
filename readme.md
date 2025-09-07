@@ -111,11 +111,11 @@ Sheryians-WebPage/
 
 ## 📸 Screenshots
 
-| Section       | Preview                                                             |
-| ------------- | ------------------------------------------------------------------- |
-| Hero Section  | ![Hero](./sheryiansWebPage/assets/SheryiansWebPage.png)             |
-| Student Wall  | ![Student](https://sheryians.com/images/placement/placement11.jpeg) |
-| Certification | ![Cert](./sheryiansWebPage/assets/Cert.png)                         |
+| Section       | Preview                                                      |
+| ------------- | ------------------------------------------------------------ |
+| Hero Section  | ![Hero](./sheryiansWebPage/assets/SheryiansWebPage.png)      |
+| Student Wall  | ![](./sheryiansWebPage/assets/Cert.png) |
+| Certification | ![Cert](./sheryiansWebPage/assets/Cert.png)                  |
 
 ---
 
