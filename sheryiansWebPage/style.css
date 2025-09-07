@@ -343,7 +343,7 @@ main {
   padding: 12px 120px;
   font-family: hell;
   margin-top: 50px;
-  background: green;
+  /* background: green; */
 }
 .section3 h1 {
   font-size: 120px;
@@ -554,7 +554,7 @@ main {
     height: 220px;
     /* align-items: flex-start;
     justify-content: flex-start; */
-    background: blue;
+    /* background: blue; */
     text-align: left;
   }
   .shercard .left h2 {
@@ -567,6 +567,7 @@ main {
     width: 100%;
     font-size: 4vw;
     line-height: 4vw;
+    margin-top: 20px;
     margin-bottom: 30px;
   }
   .shercard:nth-child(2) {
@@ -604,15 +605,15 @@ main {
   justify-content: space-between;
   align-items: flex-start;
   width: 40%;
-  background: green;
+  /* background: green; */
   height: 400px;
   gap: 50px;
 }
-.left .top {
-  font-size: 28px;
+.certf .left .top {
+  font-size: 20px;
   width: 70%;
 }
-.left .bottom {
+.certf .left .bottom {
   font-size: 28px;
   /* margin-top: 30px; */
   width: 70%;
@@ -664,17 +665,19 @@ main {
     /* background: grey; */
     width: 100%;
     text-align: center;
-    font-size: 4vw;
+    font-size: 3.3vw;
   }
 
   .certf .left .bottom {
     /* background: grey; */
     width: 100%;
     text-align: center;
-    font-size: 4vw;
+    font-size: 3.3vw;
   }
   .certf .left button {
     text-align: center;
+    font-size: 3vw;
+    padding: 14px 40px;
   }
   .right {
     width: 100%;
@@ -683,7 +686,7 @@ main {
   }
   .right img {
     width: 100%;
-    height: 250px;
+    height: 64vw;
     object-fit: cover;
   }
 }
