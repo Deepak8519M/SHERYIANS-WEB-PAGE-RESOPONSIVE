@@ -883,3 +883,162 @@ main {
     font-size: 3vw;
   }
 }
+
+footer {
+  width: 100%;
+  height: 100vh;
+  /* background: red; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 80px;
+  font-family: hell;
+}
+.foot {
+  display: flex;
+  /* background: greenyellow; */
+  padding: 110px 0;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  border-block: 2px solid rgb(75, 75, 75);
+}
+footer .part1 img {
+  height: 80px;
+}
+.part1 {
+  display: flex;
+  flex-direction: column;
+  /* background: blue; */
+  width: 20%;
+  gap: 20px;
+}
+.part1 p {
+  font-size: 1.3vw;
+}
+.part1 .logo {
+  /* background: greenyellow; */
+  display: flex;
+  gap: 37px;
+}
+.part1 .logo i {
+  font-size: 2vw;
+}
+.part2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* background: blue; */
+}
+.part2 h3 {
+  font-size: 1.3vw;
+}
+.part2 .p2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 1vw;
+}
+.part3 h3 {
+  font-size: 1.3vw;
+}
+
+.part3 .p3 {
+  margin-top: 10px;
+  font-size: 1vw;
+  font-weight: 400;
+}
+.part4 {
+  /* background: blue; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.part4 h3 {
+  font-size: 1.3vw;
+}
+.part4 .p4 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 1vw;
+}
+
+footer h2 {
+  /* background: red; */
+  width: 100%;
+  text-align: center;
+  font-size: 1.2vw;
+  margin-top: 40px;
+  padding: 20px 0;
+}
+@media (max-width: 700px) {
+  footer {
+    /* background: red; */
+    padding: 10px 20px;
+  }
+  .foot {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .part1 {
+    /* background-color: blue; */
+    width: 100%;
+  }
+  footer .part1 img {
+    height: 50px;
+  }
+  .foot {
+    padding: 20px 0;
+    align-items: start;
+    /* background: red; */
+    margin-top: 40px;
+    border-bottom: 1px solid gray;
+  }
+  footer h2 {
+    font-size: 3vw;
+    margin: 10px 0;
+    width: 100%;
+  }
+  .part1 p {
+    font-size: 4vw;
+  }
+  .part1 .logo {
+    width: 100%;
+  }
+  .part1 .logo i {
+    font-size: 6vw;
+  }
+  .part2 {
+    /* background-color: rgb(58, 255, 78); */
+    width: 100%;
+  }
+  .part2 h3 {
+    font-size: 4vw;
+  }
+  .part2 .p2 {
+    gap: 10px;
+    font-size: 3vw;
+  }
+  .part3 h3 {
+    font-size: 4vw;
+  }
+  .part3 .p3 {
+    gap: 10px;
+    font-size: 3vw;
+  }
+  .part4 h3 {
+    font-size: 4vw;
+  }
+  .part4 .p4 {
+    gap: 10px;
+    font-size: 3vw;
+  }
+  .part3 {
+    /* background-color: rgb(255, 135, 16); */
+    width: 100%;
+  }
+}
