@@ -144,6 +144,11 @@ Sheryians-WebPage/
 
 ✨ _This project is part of my ongoing web development journey to sharpen skills in HTML, CSS, and responsive design._
 
+
+This project is a **practice copy version** of a section from the [Sheryians Coding School](https://sheryians.com) website.  
+⚠️ **Note:** This is **not the original website**, but rather a **self-built clone attempt** to learn and explore advanced CSS concepts like `background-clip`, `filter: blur()`, `::before` pseudo-elements, and responsive font sizing with `vw` units.  
+
+
 ---
 
 Would you like me to also **add a short LinkedIn-friendly post (2–3 paragraphs)** that you can directly paste along with this `README.md` when you share it?
