@@ -149,4 +149,4 @@ This project is a **practice copy version** of a section from the [Sheryians Cod
 
 ---
 
-Would you like me to also **add a short LinkedIn-friendly post (2–3 paragraphs)** that you can directly paste along with this `README.md` when you share it?
+
