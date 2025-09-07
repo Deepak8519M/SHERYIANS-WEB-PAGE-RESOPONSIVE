@@ -639,10 +639,12 @@ main {
     /* background: green; */
   }
   .section6 h1 {
-    font-size: 7vw;
+    font-size: 12vw;
+    line-height: 12vw;
     text-align: center;
     width: 100%;
     margin-bottom: -20px;
+    background: blue;
   }
   .certf {
     width: 100%;
