@@ -111,11 +111,11 @@ Sheryians-WebPage/
 
 ## 📸 Screenshots
 
-| Section       | Preview                                                      |
-| ------------- | ------------------------------------------------------------ |
-| Hero Section  | ![Hero](./sheryiansWebPage/assets/SheryiansWebPage.png)      |
-| Student Wall  | ![](./sheryiansWebPage/assets/Cert.png) |
-| Certification | ![Cert](./sheryiansWebPage/assets/Cert.png)                  |
+| Section       | Preview                                                 |
+| ------------- | ------------------------------------------------------- |
+| Hero Section  | ![Hero](./sheryiansWebPage/assets/SheryiansWebPage.png) |
+| Student Wall  | ![](./sheryiansWebPage/assets/StudentWall.png)          |
+| Certification | ![Cert](./sheryiansWebPage/assets/Cert.png)             |
 
 ---
 
@@ -144,10 +144,8 @@ Sheryians-WebPage/
 
 ✨ _This project is part of my ongoing web development journey to sharpen skills in HTML, CSS, and responsive design._
 
-
 This project is a **practice copy version** of a section from the [Sheryians Coding School](https://sheryians.com) website.  
-⚠️ **Note:** This is **not the original website**, but rather a **self-built clone attempt** to learn and explore advanced CSS concepts like `background-clip`, `filter: blur()`, `::before` pseudo-elements, and responsive font sizing with `vw` units.  
-
+⚠️ **Note:** This is **not the original website**, but rather a **self-built clone attempt** to learn and explore advanced CSS concepts like `background-clip`, `filter: blur()`, `::before` pseudo-elements, and responsive font sizing with `vw` units.
 
 ---
 
